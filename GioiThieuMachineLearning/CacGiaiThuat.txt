@@ -1,0 +1,13 @@
+1. Supervied learning là gì?
+    - Nó là dữ liệu có gắn nhãn 
+    - ví dụ: quả cam, quả lê (tên của nó là một nhãn)
+2. Unsupervied learning là gì? 
+    - Nó là dữ liệu không có gắn nhãn
+    - Ví dụ: Một nhóm người, nhóm đồ vật
+3. Reforce learning là gì?
+    - Nó là học tăng cường
+    - ví dụ: Khi một xe tự động 
+            + Nếu chạy qua đèn đỏ thì bị trừ điểm
+            + Nếu chạy qua đèn xanh là được cộng điểm
+        Nó học để làm sao đạt được điểm cao nhất.
+        

@@ -1,0 +1,16 @@
+            CÓ 3 PHƯƠNG PHÁP ĐÁNH GIÁ 
++ Mean Absolute Error(MAE)
++ Root Mean Square Eror(RMSE)
++ Cofficient of determination(R2)
+
+
+
+
+1. Mean Absolute Error(MAE)
+    + MAE = (1 / N) * (TỔNG XÍCH MA TỪ 1 -> N) |Y - Y_PRED|  
+
+2. Root Mean Squared Error(RMSE)
+    + RMSE = SQRT( {[(TỔNG XÍCH MA TỪ 1 -> N) ( Y - Y_PRED)] MŨ 2} / N)
+
+3. R MŨ 2
+    + R MŨ 2 = [1 - (SSR)] / SST

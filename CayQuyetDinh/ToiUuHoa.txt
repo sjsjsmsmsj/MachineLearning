@@ -1,0 +1,19 @@
+CÁCH TỐI ƯU HÓA
+
+- điều khiển bao nhiêu lá là nhiều nhất
+- độ sâu lớn nhất 
+
+OVERFITTING AND UNDERFITTING
+
+- Overfitting: 
+        + Mô hình quá phức tạp
+        + Vì nó quá tương thích với tập dữ liệu
+            mà ta cung cấp nhưng khi ta đưa 
+            dữ liệu mới vào thì nó dự đoán sai cao.
+- UNDERFITTING:
+        + Mô hình quá đơn giản
+        + Vì nó quá đơn giản sai cả
+            sai trên tập dữ liệu huấn luyện luôn.
+            
+        
+
