@@ -1,0 +1,34 @@
+- overfitting:
+    + Mô hình quá mức phức tạp 
+    + Hiệu quả rất cao trong training set
+        nhưng khi gặp dữ liệu mới thì sẽ không dự đoán được 
+        (Kiểu như nó học thuộc bài toán rồi giải
+         mà hỏi cái tương tự nhưng tham số khác thì bó tay)
+- underfitting:
+    + Mô hình quá mức đơn giản
+    + Thậm chí cả đoán sai trên training set :)))
+
+---------------SAI SỐ----------------
+
++ Bias : 
+    - Dự đoán ra những kết quả, xong so sánh với những giá trị thật
+        rồi tính trung bình sai số đó
++ Variance:
+    - Dự đoán dữ liệu chúng ta thay đổi như nào khi đổi dữ liệu huấn
+        luyện.
+
++ Nếu Bias tăng thì Variance giảm và ngược lại
+
+Esemble learning
+- bagging:
+    có tập dữ liệu data
+        + chia tập dữ liệu data đó thành: data1, data2, data3....
+        + sử dụng mô hình machine learning để test trên từng tập dữ liệu
+        -> results 
+- boosting
+    có tập dữ liệu data
+        + chia tập dữ liệu data đó thành: data1, data2, data3....
+        + cứ mỗi lần thì sử dụng mô hình machine learning cho tập dữ liệu
+            1 xong từ tập dữ liệu đó học được những gì tốt xong cho 
+            tập dữ liệu 2 cứ thế ...
+        -> results

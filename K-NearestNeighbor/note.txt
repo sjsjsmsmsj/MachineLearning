@@ -1,0 +1,40 @@
+    THEO HÌNH 1
+- Nếu ta chọn k = 1
+thì nó gần với màu gì trước thì nó sẽ theo 
+màu của ô đó
+
+- Nếu ta chọn k = 2
+thì nó gần với 2 ô xung quanh nào nhất thì nó sẽ gần
+màu của ô đó
+ví dụ: ô tam giác màu đỏ, thì nó gần với ô tròn
+màu cam và ô vuông màu xanh là
+-> nó gần ô vuông xanh hơn nên nó sẽ thành màu xanh
+
+- Nếu ta chọn k = 3
+thì nó gần 3 ô xung quanh nào nhất thì nó sẽ
+gần màu nào của ô đó
+ví dụ: ô tam giác màu đen thì nó gần với 3 ô 
+vuông màu xanh lá 
+-> nó sẽ thành màu xanh lá
+
+
+Để hiểu thuật toán thì ta cần biết thao tác 
+để người ta làm sao để được như vậy?
+- Bước 1: Tính khoảng cách
+    (Dùng công thức xưa học cấp 3 :)))))))
+    d(a, b) = sqrt( (a1 - b1) mũ 2 + (a2 - b2) mũ 2 )
+    Nếu gặp trường hợp n chiều
+    d(a, b) = sqrt([tổng từ i = 1 -> n] {(ai - bi) mũ 2})
+- Bước 2: Lấy k điểm gần nhất
+- Bước 3: Đưa ra dự đoán phân loại hay hồi quy
+
+
+Để tính toán khoảng cách trong python
+- metric = 'minkovski'(default)
+- p = 2(default)
+
+Để chọn k-value
+n-neighbors = 5(default)
+
+Đưa ra dự đoán
+weights = 'uniform' (default)

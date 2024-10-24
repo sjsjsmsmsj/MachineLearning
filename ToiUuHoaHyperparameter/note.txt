@@ -1,0 +1,12 @@
+- Hyperparameter: là bộ thông số chúng ta set up
+nó trước khi chúng ta Training, không được điều chỉnh 
+trong quá trình.
+ví dụ: Trong một hình knn thì k là giá trị Hyperparameter
+- Paramter: là biến bình thường
+
+            CÁCH TỐI ƯU HÓA
+- GRID SEARCH CV:
+    + Chạy toàn bộ tất cả thông số trong mô hình
+
+- Randomized Search CV:
+    + Chọn ngẫu nhiên một số thông số trong đó

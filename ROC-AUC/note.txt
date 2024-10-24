@@ -1,0 +1,37 @@
+         Theo hinh1 
+- Nếu xét nhỏ hơn 5.5 thì loại iris-setosa
+dự doán đúng cao
+- Nếu ta tăng ngưỡng lên 6.0 thì nó có một vài chỗ
+sẽ dự đoán không chính xác , nhưng loại iris-versicolor
+chính xác 100% 
+
+        Theo hinh2
+- Nếu ta chọn ngưỡng là 0.5
+- thì TP (True positive: nó đúng là loại 1): 
+    12 xuống tới dòng 24 
+    Dòng loại 1 là 11 nên TP = 11
+- FP (False positive: dự đoán là loại 1 nhưng nó là loại 0):
+    có 2 dòng loại 0 
+        -> FP = 2
+- FN (False Negative: dự đoán là loại 0 nhưng nó là loại 1):
+    dưới 0.5 thì chỉ có 1 dòng loại 1 
+        -> FN = 1
+- TN (True Negative: dự đoán loại 0) 
+    dưới 0.5 có 11 dòng loại 0
+        -> TN = 11
+
+Để vẽ đường cong ROC
+    TPR = Recall = TP / (TP + FN)
+    FPR = FP / (FP + TN)
+        Theo hinh3
+- Điểm best point là điểm ta luôn kì vọng
+nhưng trong thực tế không có
+    + Điểm này dự đoán các mẫu là dương tính là
+    dương tính, âm tính là âm tính
+- Điểm worst point là điểm ta không mong muốn
+    + Điểm này dự đoán các mẫu là dương tính là 
+    dương tính, âm tính là dương tính
+
+--> Khi mà mô hình đi về phía trên 1.0 
+diện tích bên dưới đường cong lớn thì mô hình hoạt động tốt 
+còn không thì ngược lại

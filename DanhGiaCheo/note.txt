@@ -1,0 +1,20 @@
+    Mình cần đánh giá mô hình đó tốt hay không?
+
+Các bước trong quy trình làm việc machine learning
+- Bước 1: Thu thập dữ liệu(Data collection and preprocessing)
+- Bước 2: Làm sạch dữ liệu(Feature Engineering and Regularization)
+- Bước 3: Chọn mô hình 
+- Bước 4: Sử dụng một số thông mặc định của mô hình chạy thử nó
+(Initial Model Training and Evaluation)
+- Bước 5: Tìm thông số tốt nhất cho chương trình 
+(Hyperparameter Tuning)
+- Bước 6: Đánh giá hai thông số (Bias-Variance Tradeoff) 
+- Bước 7: Đánh giá chéo(Cross-Validation) 
+(Nếu không được quay về bước 2)
+- Bước 8: Chọn mô hình đó cuối cùng(Final Model Selection)
+
+
+        CROSS VALIDATION 
+Ví dụ: ta có một mảng dữ liệu 2 chiều cần chọn model 
+- ta chia tập dữ liệu thành bao nhiêu phần cũng được sao cho hợp lý
+- Từ những dữ liệu đó mình lấy mỗi thứ một ít ra để test
