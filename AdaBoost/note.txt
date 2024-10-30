@@ -1,0 +1,19 @@
+- Boosting Methods
++ Là kết hợp những dự đoán yếu thành dự đoán mạnh
++ Mô hình sau sẽ giải quyết sai số ở mô hình phía trước
+
+- Stacking methods
++ Là chọn các mô hình khác nhau để huấn luyện
++ Mô hình dự đoán ra những training set mới
++ ta huấn luyện huấn luyện đó thành meta-model 
++ dự đoán cuối cùng
+
+- Muốn giảm underfitting thì
++ boosting 
++ stacking
+
+- Muốn giảm overfitting thì
++ bagging
+
+
+

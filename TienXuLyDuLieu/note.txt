@@ -1,0 +1,46 @@
+- Data cleaning: 
+1. Xử lý dữ liệu bị mất(ví dụ: NULL)
+
++ Cách xử lý:
+    - df.dropna(inplace=True)
+    - df['column name'].fillna(df['column_name'].mean(), inplace=True)
+    (Giá trị trung bình)
+
+2. Xử lý những điểm ngoại lai
+
++ Cách xử lý: 
+    - from scipy import stats
+    - z_scores = np.abs(stats.z_score(df['column_name']))
+    - df = df[(zscore < 3)]
+
+
+- Data transformation
++ Feature Scaling (Normalize or standardize feature)
++ Encoding Categorical Date (Convert categorical data into numbers)
++ Feature Engineering (Create new feature, transform existing features)
++ Handling Time Series Data
++ Text Data Processing
+
+
+- Sử dụng label encoding khi dữ liệu có mối quan hệ với nhau:
+(ví dụ: low, medium, high)
+
+- Sử dụng one hot encoding khi dữ liệu không có mối quan hệ với nhau: 
+(ví dụ: countries)
+
+
+- Feature Scaling
+    + Normalization là ta đưa nó về một khoảng hai giá trị nào đó 
+        thường trong machine learning thì người ta quy chung về [0, 1]
+
+        Xscaled = ( X - Xmin ) / (Xmax - Xmin)
+
+
+    + Standardardization(Z-score Normalization)
+
+        - Sự phân bố gaussian 
+        - Min = 0, độ lệch chuẩn từ [-1, 1] phải 68%
+            Từ khoảng [-2, 2] phải 95% 
+        - [-3, 3] phải 99%
+        
+

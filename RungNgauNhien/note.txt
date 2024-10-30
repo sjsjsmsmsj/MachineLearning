@@ -1,0 +1,13 @@
+- Rừng ngẫu nhiên là sử dụng thuật toán 
+Decision tree xong tổng hợp tất cả các cây này lại
+
+- Tạo Nên những mẫu Boostrapping  
+
+- Số đặc trưng chọn một số ngẫu nhiên các đặc trưng
+
+- Từ những dự đoán của những cây đó ta được kết quả dự đoán
+
+- Nếu là Classification thì : voting 
+- Nếu là Regression thì : tính trung bình
+
+-> đưa ra dự đoán
