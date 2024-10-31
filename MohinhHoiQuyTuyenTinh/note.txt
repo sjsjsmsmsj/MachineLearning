@@ -1,0 +1,17 @@
+Least-Squares Linear Regression
+
+W = a * H + b
+
+- Generally:
+input: x = (x1, x2, ...., xn)
+predicted output: y = a1x1 + a2x2 + .... + anxn + b
+
+- Loss function
+RSS(a, b) = tổng (1 -> n)(yi - (axi + b)) ^ 2
+
+Ridge Regression
+- RSS(ridge)(a, b) = (tổng từ 1 đến n) (yi - (axi + b)) ^ 2 + alpha * [(tổng từ 1 đến p) (aj) ^ 2]
+
+Lasso Regression
+- RSS(lasso)(a, b) = (tổng từ 1 đến n) (yi - (axi + b)) ^ 2 + alpha * [(tổng từ 1 đến p) |aj| ^ 2]
+
