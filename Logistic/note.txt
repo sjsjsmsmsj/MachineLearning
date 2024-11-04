@@ -1,0 +1,10 @@
+- is often used for binary problems
+
+Example: - Whether email is spam or not?
+
+Logistic Regression
+sigmoid function
+y = f(x) = 1 / (1 + e^(-z) )
+
+Loss function: 
+Log loss = 1/n * (tong tu i = 1 -> n) [-(yi*log(y_du_doan_i) + (1 - yi) * (log(1 - y_du_doan_i)))]

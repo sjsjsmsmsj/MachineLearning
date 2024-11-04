@@ -1,0 +1,27 @@
+Buổi 1
+- Support Vector Machine 
+
+- sử dụng dữ liệu tuyến tính nếu không thì sẽ
+không phân biệt được
+
+Buổi 2
+
+- Nếu gặp tình huống đó ta phải biến dữ liệu thành nhiều chiều hơn
+ví dụ: có 1 chiều chuyển thành 2 chiều 
+
+- Để tối ưu mô hình thì svm tính tích vô hướng giữa các điểm với nhau
+- Hàm Kernel sẽ giúp ta làm điều này
+
+Buổi 3
+- Chia làm 2 cụm: + 1 hoặc là -1
+
+- Hinge Loss L(y, f(x)) = max(0, 1-y*f(x))
++ y = (+ 1 or -1 )
++ f(x) = w * x + b
++ L >= 0 
+
+Xem nó để chọn hyper plan tốt nhất
+
++ L càng nhỏ thì càng đúng và ngược lại
+
+
